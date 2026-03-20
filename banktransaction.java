@@ -18,7 +18,7 @@ public class banktransaction {
                     "root",
                     "@root2003");
 
-            System.out.println("Connected Successfully ✅");
+            System.out.println("Connected Successfully..!!");
 
             con.setAutoCommit(false);
 
@@ -39,7 +39,7 @@ public class banktransaction {
 
             con.commit();
 
-            System.out.println("Transaction Successful ✅");
+            System.out.println("Transaction Successful..!!");
 
         } catch (Exception e) {
 
